@@ -32,4 +32,4 @@ A simple Chrome extension that lets you open the CGV book with a single click.
 
 ---
 
-Created for quick access
+Created for quick access because having to log in moodle then CGV course then the book link is tiring. haha
