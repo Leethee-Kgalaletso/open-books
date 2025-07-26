@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Open CGV book",
+    "description": "Open CGV book in less clicks",
+    "content_scripts": [
+       {
+        "matches": ["<all_urls>"],
+        "js": ["main.js"]
+       } 
+    ],
+    "permissions": [
+        "tabs"
+    ],
+    "action": {
+        "default_title": "open cgv book"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
