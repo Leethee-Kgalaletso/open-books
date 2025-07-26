@@ -12,9 +12,4 @@ btn.onclick = () => {
     window.open('https://lamp.ms.wits.ac.za/~branden/CGV/_book/index.html', '_blank')
 }
 
-/* *******************************************
-    Uncomment below line to stick a button on 
-        every tab to access the cgv book 
-****************************************** */
-
 // document.body.appendChild(btn)
