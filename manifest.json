@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "version": "1.0",
-    "name": "Open CGV book",
-    "description": "Open CGV book in less clicks",
+    "name": "Open Books",
+    "description": "Open tabs to books in less clicks",
     "content_scripts": [
        {
         "matches": ["<all_urls>"],
@@ -13,7 +13,8 @@
         "tabs"
     ],
     "action": {
-        "default_title": "open cgv book"
+        "default_title": "open books",
+        "default_popup": "index.html"
     },
     "background": {
         "service_worker": "background.js"

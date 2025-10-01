@@ -1,17 +1,14 @@
-# open-cgv-book
+# open-links-to-books
 
-A simple Chrome extension that lets you open the CGV book with a single click.
+A simple Chrome extension that lets you open the CGV, AAA book and brief project book with a single click.
 
 ## Features
 
-- Adds a browser action button to open the CGV book instantly in a new tab.
-- (Optional) Injects a floating (not exactly, just stuck) "Open CGV" button on every page for quick access (see `main.js`).
+- Adds a browser action button to open the books instantly in a new tab.
 
 ## How it works
 
-- Click the extension icon to open the CGV book:  
-  [https://lamp.ms.wits.ac.za/~branden/CGV/_book/index.html](https://lamp.ms.wits.ac.za/~branden/CGV/_book/index.html)
-- (Optional) Uncomment the last line in [`main.js`](main.js) to add a floating button to every page.
+- Click the extension icon to open the a popup html file that has links to these books:
 
 ## Installation
 
@@ -22,14 +19,14 @@ A simple Chrome extension that lets you open the CGV book with a single click.
 
 ## Permissions
 
-- `tabs`: Required to open the CGV book in a new tab.
+- `tabs`: Required to open the links in a new tab.
 
 ## Files
 
-- [`background.js`](background.js): Handles the extension button click.
-- [`main.js`](main.js): (Optional) Injects a floating button on every page.
+- [`background.js`](background.js): Handles the extension run check.
+- [`main.js`](main.js): The main js file that creates new tabs for these books
 - [`manifest.json`](manifest.json): Extension configuration.
 
 ---
 
-Created for quick access because having to log in moodle then CGV course then the book link is tiring. haha
+Created for quick access because having to log in moodle then a Moodle course then the book link is tiring. hehe
