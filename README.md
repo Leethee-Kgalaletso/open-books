@@ -23,7 +23,7 @@ A simple Chrome extension that lets you open the CGV, AAA book and brief project
 
 ## Files
 
-- [`index.html`] (index.html): Handles the rerouting and popup.
+- [`index.html`](index.html): Handles the rerouting and popup.
 - [`background.js`](background.js): Handles the extension run check.
 - [`main.js`](main.js): Creates new tabs for these books
 - [`manifest.json`](manifest.json): Extension configuration.
