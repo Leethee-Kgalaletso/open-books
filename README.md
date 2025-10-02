@@ -24,7 +24,7 @@ A simple Chrome/Edge extension that lets you open the CGV, AAA book and brief pr
 ## Files
 
 - [`index.html`](index.html): Handles the rerouting and popup.
-- [`background.js`](background.js): Handles the extension run check.
+- [`background.js`](background.js): Runs the extension working check.
 - [`main.js`](main.js): Creates new tabs for these books + adding your own links
 - [`manifest.json`](manifest.json): Extension configuration.
 
