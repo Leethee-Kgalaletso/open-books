@@ -7,14 +7,26 @@
     <style>
         body {
             font-family:Arial, Helvetica, sans-serif;
-            text-align: center;
-            padding: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
         button {
-            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
+            transition: background-color 0.3s;
         }
+
+        label {
+            display: block;
+            font-weight: 500;
+        }
+       
     </style>
 </head>
 <body>
@@ -22,6 +34,18 @@
     <button id="openCGV">CGV book</button>
     <button id="openAAA-project">AAA project book</button>
     <button id="openAAA-steve">Steve's AAA</button>
+
+    <br/> <br/>
+    <label>Name</label>
+    <input type="text" id="btn-name" />
+    <label>URL</label>
+    <input type="text" id="url" />
+
+    <button id="save">+</button>
+
+    <div id="button-container">
+        <!-- where all the buttons will remain -->
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

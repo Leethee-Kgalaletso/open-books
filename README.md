@@ -1,6 +1,6 @@
 # open-links-to-books
 
-A simple Chrome extension that lets you open the CGV, AAA book and brief project book with a single click.
+A simple Chrome/Edge extension that lets you open the CGV, AAA book and brief project book, or any links you choose to add with a single or two clicks.
 
 ## Features
 
@@ -25,7 +25,7 @@ A simple Chrome extension that lets you open the CGV, AAA book and brief project
 
 - [`index.html`](index.html): Handles the rerouting and popup.
 - [`background.js`](background.js): Handles the extension run check.
-- [`main.js`](main.js): Creates new tabs for these books
+- [`main.js`](main.js): Creates new tabs for these books + adding your own links
 - [`manifest.json`](manifest.json): Extension configuration.
 
 ---
