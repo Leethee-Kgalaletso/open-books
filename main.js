@@ -14,16 +14,17 @@ function openTab(link) {
     window.open(link, '_blank');
 }
 
-btn1.onclick = () => {
+btn1.addEventListener("click", () => {
     openTab(url1);
-}
+});
 
-btn2.onclick = () => {
+btn2.addEventListener("click", () => {
     openTab(url2);
-}
-btn3.onclick = () => {
+});
+
+btn3.addEventListener("click", () => {
     openTab(url3);
-}
+});
 
 /* testing */
 
