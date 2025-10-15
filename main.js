@@ -2,10 +2,12 @@
 const url1 = 'https://lamp.ms.wits.ac.za/~branden/CGV/_book/index.html';
 const url2 = `https://lamp.ms.wits.ac.za/~branden/AAA/_book/project-outline.html`;
 const url3 = 'https://courses.ms.wits.ac.za/~steve/aaa/book/large/';
+const url4 = 'https://courses.ms.wits.ac.za/~branden/RoboCup/';
 
 const btn1 = document.getElementById('openCGV');
-const btn2 = document.getElementById('openAAA-project');
+const btn2 = document.getElementById('robocup-2025');
 const btn3 = document.getElementById('openAAA-steve');
+const btn4 = document.getElementById('robocup');
 
 function openTab(link) {
     if(!link.startsWith('http://') && !link.startsWith('https://')) {
@@ -26,7 +28,11 @@ btn3.addEventListener("click", () => {
     openTab(url3);
 });
 
-/* testing */
+btn4.addEventListiner("click", () => {
+    openTab(url4);
+})
+
+/* testing - localStorage usage*/
 
 const saveBtn = document.getElementById('save');
 const nameInput = document.getElementById('btn-name');
@@ -61,7 +67,7 @@ for (let i = 0; i < localStorage.length; i++) {
 // save new button 
 
 if(saveBtn){
-    saveBtn.onclick = () => {
+    saveBtn.addEventListener("click", () => {
         const name = nameInput.value;
         const url = urlInput.value;
 
@@ -82,9 +88,9 @@ if(saveBtn){
 
             // clear inputs
         }
-    }
+    });
 } else {
-    console.log("uhm... np save btn");
+    console.log("uhm... no save btn");
 }
 
 
