@@ -1,6 +1,6 @@
 
 const url1 = 'https://lamp.ms.wits.ac.za/~branden/CGV/_book/index.html';
-const url2 = `https://lamp.ms.wits.ac.za/~branden/AAA/_book/project-outline.html`;
+const url2 = 'https://lamp.ms.wits.ac.za/~branden/AAA/_book/project-outline.html';
 const url3 = 'https://courses.ms.wits.ac.za/~steve/aaa/book/large/';
 const url4 = 'https://courses.ms.wits.ac.za/~branden/RoboCup/';
 
