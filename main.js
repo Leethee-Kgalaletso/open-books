@@ -28,9 +28,9 @@ btn3.addEventListener("click", () => {
     openTab(url3);
 });
 
-btn4.addEventListiner("click", () => {
+btn4.addEventListener("click", () => {
     openTab(url4);
-})
+});
 
 /* testing - localStorage usage*/
 
